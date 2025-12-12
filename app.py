@@ -2,7 +2,7 @@ from flask import Flask
 app = Flask(__name__)
 @app.route('/')
 def hello_world():
- return 'Hello, World! Welcome to my app'
+ return 'Hello, World!'
 @app.route('/health')
 def check_health():
  return "bienvenu sur votre espace santé"
